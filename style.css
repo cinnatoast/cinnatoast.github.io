@@ -1,0 +1,60 @@
+/* a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+  }
+  
+  a:hover {
+    background-color: rgb(153, 0, 255);
+    color: black;
+  }
+  
+  .previous {
+    background-color: rgb(172, 82, 247);
+    color: white;
+  }
+  
+  .next {
+    background-color: rgb(172, 82, 247);
+    color: white;
+  }
+  
+  .round {
+    border-radius: 50%;
+  } */
+
+  header {
+    text-align: center;
+    font-family: 'Times New Roman', sans-serif;
+    font-size: 25px;
+    background-color: white;
+  }
+
+  body {
+    background-color: pink;
+    position: relative;
+  }
+
+  h2 
+  {
+    text-align: center;
+    font-family: 'Times New Roman', sans-serif;
+    background-color: white;
+  }
+
+  #myCarousel {
+      margin: auto;
+      /* bottom: 100px; */
+      width: auto;
+      height: auto;
+  }
+
+  .container {
+    background-color: pink;
+    transform: scale(0.75);
+    position: absolute;
+    /* margin: 0px; */
+    /* margin-left: inherit; */
+    padding-top: 0px;
+    left: 12.5%;
+  }
